@@ -197,7 +197,7 @@ export default function DemoVideoGallery({
             targetRowHeight={isMobileScreenSize ? 120 : 200}
             rowConstraints={{
               singleRowMaxHeight: isMobileScreenSize ? 120 : 240,
-              maxPhotos: 3,
+              maxPhotos: 10,
             }}
             renderPhoto={renderPhoto}
             spacing={4}

@@ -19,7 +19,7 @@ import {AbstractEffect, EffectFrameContext} from './Effect';
 
 export default class EraseBackgroundEffect extends AbstractEffect {
   constructor() {
-    super(3);
+    super(10);
   }
 
   apply(

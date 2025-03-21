@@ -33,7 +33,7 @@ export default class GradientEffect extends BaseGLEffect {
   private _extraTextureUnit: number = 1;
 
   constructor() {
-    super(3);
+    super(10);
 
     this.vertexShaderSource = vertexShaderSource;
     this.fragmentShaderSource = fragmentShaderSource;

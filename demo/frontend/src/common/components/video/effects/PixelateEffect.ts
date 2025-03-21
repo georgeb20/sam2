@@ -28,7 +28,7 @@ export default class PixelateEffect extends BaseGLEffect {
   private _blockSize: number = 10.0;
 
   constructor() {
-    super(3);
+    super(10);
 
     this.vertexShaderSource = vertexShaderSource;
     this.fragmentShaderSource = fragmentShaderSource;

@@ -19,7 +19,7 @@ import {AbstractEffect, EffectFrameContext} from './Effect';
 
 export default class DesaturateEffect extends AbstractEffect {
   constructor() {
-    super(3);
+    super(10);
   }
 
   apply(form: CanvasForm, context: EffectFrameContext, _tracklets: Tracklet[]) {

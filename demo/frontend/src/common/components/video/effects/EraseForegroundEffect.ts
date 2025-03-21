@@ -20,7 +20,7 @@ import {EffectLayer} from './EffectUtils';
 
 export default class EraseForegroundEffect extends AbstractEffect {
   constructor() {
-    super(3);
+    super(10);
   }
 
   apply(

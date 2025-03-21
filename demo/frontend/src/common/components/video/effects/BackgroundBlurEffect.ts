@@ -28,7 +28,7 @@ export default class BackgroundBlurEffect extends BaseGLEffect {
   private _blurRadius: number = 3;
 
   constructor() {
-    super(3);
+    super(10);
 
     this.vertexShaderSource = vertexShaderSource;
     this.fragmentShaderSource = fragmentShaderSource;

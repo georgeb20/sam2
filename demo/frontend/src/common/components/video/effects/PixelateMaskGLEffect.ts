@@ -35,7 +35,7 @@ export default class PixelateMaskGLEffect extends BaseGLEffect {
   private _maskTextures: WebGLTexture[] = [];
 
   constructor() {
-    super(3);
+    super(10);
     this.vertexShaderSource = vertexShaderSource;
     this.fragmentShaderSource = fragmentShaderSource;
   }
@@ -51,7 +51,7 @@ export default class PixelateMaskGLEffect extends BaseGLEffect {
     gl.uniform1i(this._numMasksUniformLocation, this._numMasks);
 
     // We know the max number of textures, pre-allocate 3.
-    this._maskTextures = preAllocateTextures(gl, 3);
+    this._maskTextures = preAllocateTextures(gl, 10);
   }
 
   apply(form: CanvasForm, context: EffectFrameContext, _tracklets: Tracklet[]) {
